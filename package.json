@@ -1,0 +1,25 @@
+{
+  "name": "react-webrtc",
+  "version": "1.0.0",
+  "description": "Project to demo WebRTC using ReactJS for Frontend side and NodeJS for Backend side",
+  "main": " ",
+  "scripts": {
+    "install": "sh install.sh",
+    "postinstall": "cd client && yarn build",
+    "start": "cd server && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuong291/React-WebRTC.git"
+  },
+  "engines": {
+    "node": "12.1.0",
+    "yarn": "1.12.0"
+  },
+  "author": "Kenny Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khuong291/React-WebRTC/issues"
+  },
+  "homepage": "https://github.com/khuong291/React-WebRTC#readme"
+}
