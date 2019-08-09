@@ -4,7 +4,7 @@
   "description": "Project to demo WebRTC using ReactJS for Frontend side and NodeJS for Backend side",
   "main": " ",
   "scripts": {
-    "install": "sh install.sh",
+    "install": "cd server && yarn install --pure-lockfile && cd ../client && yarn install --pure-lockfile",
     "postinstall": "cd client && yarn build",
     "start": "cd server && yarn start"
   },
